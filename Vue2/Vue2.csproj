@@ -86,7 +86,8 @@
     <Content Include="1安装介绍\lesson2.aspx" />
     <Content Include="4计算属性\lesson10.aspx" />
     <Content Include="4计算属性\lesson11.aspx" />
-    <Content Include="lesson12.aspx" />
+    <Content Include="4计算属性\lesson12.aspx" />
+    <Content Include="5Class与Style绑定\lesson13.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -160,12 +161,19 @@
     <Compile Include="4计算属性\lesson11.aspx.designer.cs">
       <DependentUpon>lesson11.aspx</DependentUpon>
     </Compile>
-    <Compile Include="lesson12.aspx.cs">
+    <Compile Include="4计算属性\lesson12.aspx.cs">
       <DependentUpon>lesson12.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="lesson12.aspx.designer.cs">
+    <Compile Include="4计算属性\lesson12.aspx.designer.cs">
       <DependentUpon>lesson12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="5Class与Style绑定\lesson13.aspx.cs">
+      <DependentUpon>lesson13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5Class与Style绑定\lesson13.aspx.designer.cs">
+      <DependentUpon>lesson13.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1安装介绍\lesson1.aspx.cs">
